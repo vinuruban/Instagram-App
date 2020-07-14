@@ -893,6 +893,7 @@ id art
 id audio_empty_message
 id audio_list_view
 id auto
+id backgroundLayout
 id background_image_view
 id background_place_holder_image_view
 id barrier
@@ -1062,7 +1063,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signUp
+id signUpLink
 id slide
 id spacer
 id split_action_bar

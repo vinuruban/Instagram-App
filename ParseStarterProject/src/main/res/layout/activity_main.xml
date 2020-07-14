@@ -9,6 +9,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
@@ -31,8 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/logo"
         android:layout_marginBottom="-50dp"
-        android:hint="Enter username..."
         android:ems="10"
+        android:hint="Enter username..."
         android:inputType="textPersonName" />
 
     <EditText
@@ -51,10 +52,11 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/password"
         android:layout_marginBottom="-66dp"
+        android:onClick="loginUser"
         android:text="Log in" />
 
     <TextView
-        android:id="@+id/signUp"
+        android:id="@+id/signUpLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/loginButton"
@@ -68,7 +70,7 @@
         android:id="@+id/loginStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/signUp"
+        android:layout_alignBottom="@id/signUpLink"
         android:layout_marginBottom="-141dp"
         android:text="text"
         android:textColor="#2F7E33" />
@@ -80,6 +82,7 @@
         android:layout_alignBottom="@id/loginStatus"
         android:layout_marginBottom="-57dp"
         android:background="#9C0909"
+        android:onClick="logoOutUser"
         android:text="Log out"
         android:textColor="#FFFFFF"
         android:visibility="gone" />
