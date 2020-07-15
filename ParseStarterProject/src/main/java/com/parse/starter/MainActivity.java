@@ -43,41 +43,45 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   EditText username;
   EditText password;
   TextView loginStatus;
-  Button logOut;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    username = (EditText) findViewById(R.id.username);
-    password = (EditText) findViewById(R.id.password);
+    if (ParseUser.getCurrentUser() != null) { //IF USER WAS PREVIOUSLY LOGGED IN...
+      navigateToLoginMode();
+    }
+    else { //IF NO USERS WERE LOGGED IN...
+      username = (EditText) findViewById(R.id.username);
+      password = (EditText) findViewById(R.id.password);
 
-    /** SIGN UP USER **/
-    TextView signUp = (TextView) findViewById(R.id.signUpLink);
-    signUp.setOnClickListener(this); //note that we are coding the Listener differently to minimise overriding onClick() method. We pass "this" since this class implements View.OnClickListener. This way, onClick() is overridden only once to save code!!!
+      /** SIGN UP USER **/
+      TextView signUp = (TextView) findViewById(R.id.signUpLink);
+      signUp.setOnClickListener(this); //note that we are coding the Listener differently to minimise overriding onClick() method. We pass "this" since this class implements View.OnClickListener. This way, onClick() is overridden only once to save code!!!
 
-    /** TO LET KEYBOARD DISAPPEAR WHEN CLICKED OUTSIDE **/
-    ImageView logoImageView = (ImageView) findViewById(R.id.logo);
-    RelativeLayout backgroundLayout = (RelativeLayout) findViewById(R.id.backgroundLayout);
-    logoImageView.setOnClickListener(this); //read note in SIGN UP USER
-    backgroundLayout.setOnClickListener(this); //read note in SIGN UP USER
+      /** TO LET KEYBOARD DISAPPEAR WHEN CLICKED OUTSIDE **/
+      ImageView logoImageView = (ImageView) findViewById(R.id.logo);
+      RelativeLayout backgroundLayout = (RelativeLayout) findViewById(R.id.backgroundLayout);
+      logoImageView.setOnClickListener(this); //read note in SIGN UP USER
+      backgroundLayout.setOnClickListener(this); //read note in SIGN UP USER
 
-    /** TO CHECK LOGIN/LOGOUT STATE **/
-    loginStatus = (TextView) findViewById(R.id.loginStatus);
-    checkStatus();
+      /** TO CHECK LOGIN/LOGOUT STATE **/
+      loginStatus = (TextView) findViewById(R.id.loginStatus);
+      checkStatus();
 
-    /** WHEN USER HITS ENTER AFTER FILLING PASSWORD... **/
-    password.setOnKeyListener(new View.OnKeyListener() {
-      @Override
-      public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
-        if (keyCode == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == KeyEvent.ACTION_DOWN) {
-          loginUser(view);
-          closeKeyboard(); //close keyboard after logging in
+      /** WHEN USER HITS ENTER AFTER FILLING PASSWORD... **/
+      password.setOnKeyListener(new View.OnKeyListener() {
+        @Override
+        public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
+          if (keyCode == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == KeyEvent.ACTION_DOWN) {
+            loginUser(view);
+            closeKeyboard(); //close keyboard after logging in
+          }
+          return false;
         }
-        return false;
-      }
-    });
+      });
+    }
 
     /** NEEDED FOR THE PARSE SERVER **/
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
@@ -127,9 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         public void done(ParseUser user, ParseException e) {
           if (user != null) {
-            checkStatus();
-            logOut = (Button) findViewById(R.id.logOutButton);
-            logOut.setVisibility(View.VISIBLE);
+            navigateToLoginMode();
           }
           else {
             Toast.makeText(getApplicationContext(), "User does not exist - please sign up", Toast.LENGTH_SHORT).show();
@@ -139,11 +141,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
   }
 
-  /** LOG OUT USER **/
-  public void logoOutUser(View view) {
-    logOut.setVisibility(View.GONE);
-    ParseUser.logOut(); //LOGS USER OUT!!!!
-    checkStatus();
+  /** NAVIGATE TO LOGGED IN MODE **/
+  public void navigateToLoginMode() {
+    Intent intent = new Intent(MainActivity.this, HomepageActivity.class);
+    startActivity(intent);
   }
 
   /** CHECK WHETHER A USER IS LOGGED IN OR NOT **/

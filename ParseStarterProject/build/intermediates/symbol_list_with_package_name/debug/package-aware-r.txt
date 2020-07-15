@@ -991,6 +991,7 @@ id left
 id light
 id line1
 id line3
+id list
 id listMode
 id list_item
 id loading_indicator
@@ -1037,6 +1038,7 @@ id progress_horizontal
 id radio
 id rfc822
 id right
+id rootView
 id route_name
 id sandbox
 id satellite
@@ -1105,6 +1107,8 @@ id topPanel
 id up
 id url
 id useLogo
+id userDetails
+id userTextView
 id username
 id wide
 id withText
@@ -1142,6 +1146,7 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_homepage
 layout activity_main
 layout cast_expanded_controller_activity
 layout cast_help_text
@@ -1149,6 +1154,7 @@ layout cast_intro_overlay
 layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
+layout list_item
 layout mr_media_route_chooser_dialog
 layout mr_media_route_controller_material_dialog_b
 layout mr_media_route_list_item

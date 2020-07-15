@@ -75,16 +75,4 @@
         android:text="text"
         android:textColor="#2F7E33" />
 
-    <Button
-        android:id="@+id/logOutButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/loginStatus"
-        android:layout_marginBottom="-57dp"
-        android:background="#9C0909"
-        android:onClick="logoOutUser"
-        android:text="Log out"
-        android:textColor="#FFFFFF"
-        android:visibility="gone" />
-
 </RelativeLayout>
