@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/menu_menu_homepage.xml.flat",
+        "source": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/menu/menu_homepage.xml"
+    },
+    {
         "merged": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_insta.png.flat",
         "source": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/insta.png"
     },

@@ -49,5 +49,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logOutButton" />
 
-
 </android.support.constraint.ConstraintLayout>
