@@ -992,11 +992,12 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id list
 id listMode
 id list_item
 id loading_indicator
-id logOutButton
+id log_out
 id loginButton
 id loginStatus
 id logo
@@ -1012,6 +1013,7 @@ id media_route_volume_slider
 id middle
 id monochrome
 id multiply
+id nameTextView
 id never
 id none
 id normal
@@ -1149,6 +1151,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout activity_homepage
 layout activity_main
+layout activity_user_profile
 layout cast_expanded_controller_activity
 layout cast_help_text
 layout cast_intro_overlay

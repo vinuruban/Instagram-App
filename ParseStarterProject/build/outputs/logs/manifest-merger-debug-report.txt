@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/7a207b4a481f46a98a2a9e602aafe21e/play-services-9.4.0/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/a0c62d77f5f7876d2bba160f24acfd87/play-services-cast-framework-9.4.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/2bf0f6296d5bbf4ea5e53277ed4b12d2/play-services-cast-9.4.0/AndroidManifest.xml:16:1-20:12
@@ -60,20 +60,20 @@ MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/vinnie.shan
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/2945eea3f84eec92a0f38233c9f9d18e/play-services-tasks-9.4.0/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/bd37d51dfae56628b7203b129b68c081/play-services-basement-9.4.0/AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:23.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/5acf6a62f2880815e48c34f5c32b52f1/support-v4-23.4.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:2:11-69
@@ -136,7 +136,7 @@ ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starte
 	android:name
 		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-26:19
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-27:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/7a207b4a481f46a98a2a9e602aafe21e/play-services-9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/7a207b4a481f46a98a2a9e602aafe21e/play-services-9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/vinnie.shantharoopan/.gradle/caches/transforms-2/files-2.1/a0c62d77f5f7876d2bba160f24acfd87/play-services-cast-framework-9.4.0/AndroidManifest.xml:5:5-9:19
@@ -239,26 +239,30 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/vinnie.shantharoopan/
 		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:9-40
 	android:name
 		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:11:9-43
+activity#com.parse.starter.UserProfileActivity
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:9-66
+	android:name
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:19-54
 activity#com.parse.starter.HomepageActivity
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:9-63
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:17:9-54
 	android:name
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:19-51
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:17:19-51
 activity#com.parse.starter.MainActivity
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:13-45
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:13-45
 	android:name
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml

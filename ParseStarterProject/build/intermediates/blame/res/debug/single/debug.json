@@ -16,6 +16,10 @@
         "source": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_user_profile.xml.flat",
+        "source": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_user_profile.xml"
+    },
+    {
         "merged": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/vinnie.shantharoopan/AndroidStudioProjects/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

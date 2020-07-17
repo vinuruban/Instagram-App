@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -59,6 +60,15 @@ public class HomepageActivity extends AppCompatActivity {
         adapter = new UserAdapter(HomepageActivity.this, users);
         listView = (ListView) findViewById(R.id.list);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(HomepageActivity.this, UserProfileActivity.class);
+                intent.putExtra("user", users.get(position).getUsername());
+                startActivity(intent);
+            }
+        });
+
         ParseQuery<ParseUser> query = ParseUser.getQuery(); //INSTEAD OF <ParseObject> & ParseQuery.getQuery("ExampleObject"), ITS <ParseUser> & ParseUser.getQuery() respectively!!!!!!!
 
         query.whereNotEqualTo("username", currentUser); //DON'T INCLUDE CURRENT USER
@@ -82,18 +92,6 @@ public class HomepageActivity extends AppCompatActivity {
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
-
-        Button logout = (Button) findViewById(R.id.logOutButton);
-        logout.setOnClickListener(new View.OnClickListener() { //TO LOG OUT
-            @Override
-            public void onClick(View view) {
-                ParseUser.logOut();
-                Intent intent = new Intent(HomepageActivity.this, MainActivity.class);
-                startActivity(intent);
-                Toast.makeText(getApplicationContext(), "Logged out " + currentUser, Toast.LENGTH_SHORT).show();
-            }
-        });
-
     }
 
     @Override
@@ -106,13 +104,17 @@ public class HomepageActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.add_photo:
-
                 if(checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) { //IF PERMISSION WASN'T GRANTED,...
                     requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},1); //...THEN ASK FOR PERMISSION ( IN onRequestPermissionsResult() )
                 } else { //IF PERMISSION IS GRANTED,...
                     selectPhoto(); //...THEN ALLOW USERS TO SELECT PHOTOS
                 }
-
+                return true;
+            case R.id.log_out:
+                ParseUser.logOut();
+                Intent intent = new Intent(HomepageActivity.this, MainActivity.class);
+                startActivity(intent);
+                Toast.makeText(getApplicationContext(), "Logged out " + currentUser, Toast.LENGTH_SHORT).show();
                 return true;
         }
         return super.onOptionsItemSelected(item);
